@@ -1,0 +1,19 @@
+{
+  "name": "lava-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Adil",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.6.3",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "aptos": "^1.19.0"
+  },
+  "scripts": {
+    "start concurrent": "ts-node src/concurrent-requests.ts",
+    "start sequential": "ts-node src/sequential-requests"
+  }
+}
