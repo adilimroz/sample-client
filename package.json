@@ -14,6 +14,6 @@
   },
   "scripts": {
     "start-concurrent": "ts-node src/concurrent-requests.ts",
-    "start-sequential": "ts-node src/sequential-requests"
+    "start-sequential": "ts-node src/sequential-requests.ts"
   }
 }
