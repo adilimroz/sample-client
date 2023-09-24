@@ -13,7 +13,7 @@
     "aptos": "^1.19.0"
   },
   "scripts": {
-    "start concurrent": "ts-node src/concurrent-requests.ts",
-    "start sequential": "ts-node src/sequential-requests"
+    "start-concurrent": "ts-node src/concurrent-requests.ts",
+    "start-sequential": "ts-node src/sequential-requests"
   }
 }
