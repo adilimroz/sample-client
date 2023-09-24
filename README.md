@@ -17,3 +17,5 @@ Execution
 * You can provide your own count of requests by supplying the count as argument to yarn command.
   `yarn start-concurrent 500` or `yarn start-sequential 500`
 
+Executing either, will give you the total count of successful requests and error responses in console log. In case of error - the responses will be logged in console as well.
+
